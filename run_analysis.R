@@ -59,5 +59,5 @@ dataset.summarized <- dataset.extracted %>%
   dplyr::group_by(activity, subject) %>%
   dplyr::summarise_all(mean)
 
-write.table(dataset.summarized, "tidy_dataset.txt", quote = FALSE)
+write.table(dataset.summarized, "tidy_dataset.txt", row.name = FALSE)
 

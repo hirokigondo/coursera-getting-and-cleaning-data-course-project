@@ -1,5 +1,5 @@
 # Code Book
-Explains the data in `tidy_dataset.txt` which is the final product of this project.
+Explains the data in `tidy_dataset.txt` which is the final product of this project.<br>
 The original dataset is downloaded from the following url.
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
@@ -118,13 +118,13 @@ Converts based on `activity_labels.txt` as follows.
 |6|LAYING|
 ### Measurements's variable names
 Converts the names of the original `features.txt` as follows.
-- Converts the first letter of words to uppercase.
+- Converts the first letter of words to uppercase.<br>
  - "mean" -> "Mean"
- - "std" -> "Std".
-- Deletes special characters.
+ - "std" -> "Std"
+- Deletes special characters.<br>
  - "("
  - ")"
  - "-"
-- Examples.
+- Examples.<br>
  - "tBodyAcc-mean()-X" -> "tBodyAccMeanX"
  - "tBodyAcc-std()-X" -> "tBodyAccStdX"

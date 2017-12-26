@@ -20,7 +20,7 @@ Each data set are binded as follows.
 ## 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 Adopts the measurements containing `mean` and `std` as the name from the original `features.txt`.
 
-## 3. Uses descriptive activity names to name the activities in the data set
+## 3. Uses descriptive activity names to name the activities in the data set.
 Adopts the activeity names from the original `activity_labels.txt`.
 
 ## 4. Appropriately labels the data set with descriptive variable names.

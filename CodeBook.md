@@ -93,12 +93,12 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ### Identifiers
 - activity<br>
 It has exactly the same six values as the original data (`y_train.txt`, `y_test.txt`).
-  - WALKING
-  - WALKING_UPSTAIRS
-  - WALKING_DOWNSTAIRS
-  - SITTING
-  - STANDING
-  - LAYING
+	- WALKING
+	- WALKING_UPSTAIRS
+	- WALKING_DOWNSTAIRS
+	- SITTING
+	- STANDING
+	- LAYING
 - subject<br>
 It has exactly the same 1:30 values as the original data (`subject_train.txt`, `subject_test.txt`).
 
@@ -118,13 +118,13 @@ Converts based on `activity_labels.txt` as follows.
 |6|LAYING|
 ### Measurements's variable names
 Converts the names of the original `features.txt` as follows.
-- Converts the first letter of words to uppercase.<br>
- - "mean" -> "Mean"
- - "std" -> "Std"
+- Converts the first letter of words to uppercase.
+	- "mean" -> "Mean"
+	- "std" -> "Std"
 - Deletes special characters.<br>
- - "("
- - ")"
- - "-"
+	- "("
+	- ")"
+	- "-"
 - Examples.<br>
- - "tBodyAcc-mean()-X" -> "tBodyAccMeanX"
- - "tBodyAcc-std()-X" -> "tBodyAccStdX"
+	- "tBodyAcc-mean()-X" -> "tBodyAccMeanX"
+	- "tBodyAcc-std()-X" -> "tBodyAccStdX"
